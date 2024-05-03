@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const stripe = require('stripe')(
-  'sk_test_51OUQLmSDV87oTqW98qOloFbtuT4rI83EchTI2W2bMtyU8i2KT0zrJXKcDMH12n4TFKBYmfuFbwluw00YNcqMhz6',
-);
+const stripe = require('stripe')('');
 
 router.post('/intents', async (req, res) => {
   try {
