@@ -63,7 +63,7 @@ const StripePayment = () => {
     // 4. If payment ok -> create the order
   };
   return (
-    <StripeProvider publishableKey="pk_test_51OUQLmSDV87oTqW9bqejT3c3u7QoLcfBeqCED20y53oGLYXZnqbzgHWqUV8Q7yM7KpyaeLb2CNBeLoAh4LE3UACY00NWU3LB9q">
+    <StripeProvider publishableKey="pk_test_51OUQLmSDV87oTqW9bqejT3c3u7QoLcfBeqCED20y53oGLYXZnqbzgHWyM7KpyaeLb2CNBeLoAh4LE3UACY00NWU3LB9q">
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <Button title={'Payment'} onPress={onCheckout} />
       </View>
